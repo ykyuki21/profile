@@ -45,6 +45,11 @@ export default {
           icon: 'bubble_chart',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'perm_identity',
+          title: 'Profile',
+          to: '/profile'
         }
       ],
       drawer: false
