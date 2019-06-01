@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" class="hidden-sm-and-up" fixed app temporary>
+    <v-navigation-drawer v-model="drawer" class="hidden-sm-and-up" fixed disable-resize-watcher width="200">
       <v-list>
         <v-list-tile v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-tile-action>
