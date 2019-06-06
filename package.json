@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "Yuki'sPortfolio",
   "version": "1.0.0",
-  "description": "My portfolio made with Nuxt.js",
+  "description": "Web開発者yukiのポートフォリオサイトです",
   "author": "yuki",
   "private": true,
   "scripts": {

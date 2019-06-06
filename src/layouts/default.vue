@@ -29,7 +29,7 @@
     </v-content>
     <v-footer fixed app color="primary">
       <v-layout justify-center>
-        <span>&copy; 2019</span>
+        <span>&copy; 2019 yuki</span>
       </v-layout>
     </v-footer>
   </v-app>
