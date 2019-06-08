@@ -13,7 +13,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar fixed app color="primary">
-      <v-toolbar-side-icon class="hidden-sm-and-up" @click="drawer = !drawer" />
+      <v-toolbar-side-icon class="hidden-sm-and-up" aria-label="Hamburger Menu Button" @click="drawer = !drawer" />
       <v-toolbar-title>
         <nuxt-link to="/">{{ title }}</nuxt-link>
       </v-toolbar-title>
