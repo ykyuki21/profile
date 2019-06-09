@@ -45,6 +45,11 @@ export default {
           icon: 'perm_identity',
           title: 'Profile',
           to: '/profile'
+        },
+        {
+          icon: 'history',
+          title: 'History',
+          to: '/history'
         }
       ],
       drawer: false
