@@ -1,7 +1,7 @@
 {
-  "name": "Yuki'sPortfolio",
+  "name": "profile",
   "version": "1.0.0",
-  "description": "Web開発者yukiのポートフォリオサイトです",
+  "description": "Web開発者yukiのプロフィールサイトです",
   "author": "yuki",
   "private": true,
   "scripts": {

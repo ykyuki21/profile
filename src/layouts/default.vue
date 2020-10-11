@@ -27,11 +27,6 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer fixed app color="primary">
-      <v-layout justify-center>
-        <span>&copy; 2019 yuki</span>
-      </v-layout>
-    </v-footer>
   </v-app>
 </template>
 
@@ -39,12 +34,12 @@
 export default {
   data() {
     return {
-      title: `Yuki's Portfolio`,
+      title: `Yukimy`,
       items: [
         {
           icon: 'perm_identity',
-          title: 'Profile',
-          to: '/profile'
+          title: 'About',
+          to: '/about'
         },
         {
           icon: 'history',

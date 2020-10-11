@@ -1,6 +1,6 @@
-# portfolio
+# profile
 
-> My portfolio made with Nuxt.js
+> My profile made with Nuxt.js
 
 ## Build Setup
 
