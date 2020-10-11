@@ -27,11 +27,6 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer fixed app color="primary">
-      <v-layout justify-center>
-        <span>&copy; 2019 yuki</span>
-      </v-layout>
-    </v-footer>
   </v-app>
 </template>
 
