@@ -1,25 +1,18 @@
 <template>
   <v-flex>
-    <h2 class="headline">About</h2>
-    <p>兵庫県在住、神戸の街が好きな{{ getAge }}歳</p>
-    <p>業務では主にECサイトのバックエンドを担当</p>
-    <p>一番幸福を感じる瞬間は美味しい物を食べている時</p>
-    <p>趣味はスポーツ観戦、ゲーム</p>
-    <p>主に観るスポーツはサッカー(Jリーグ)、League of Legends</p>
-    <p>ゲームはメルクストーリアを中心にプレイ中</p>
-    <h2 class="headline">Skill</h2>
-    <h3 class="subheading">実務経験有り</h3>
+    <h2 class="heading">About</h2>
+    <p>兵庫県出身、東京都在住の{{ getAge }}歳</p>
+    <p>業務ではバックエンドを担当することが多いフロントエンドも好き</p>
+    <p>ユーザー体験の観点から、使っていて気持ちが良いと思ってもらえるサイトを作りたい</p>
+    <h2 class="heading">Like</h2>
+    <p>美味しいご飯</p>
+    <p>サッカー観戦</p>
+    <p>ゲーム</p>
+    <p>漫画</p>
+    <p>アニメ</p>
+    <h2 class="heading">Skills</h2>
     <p>
       <span v-for="(skill, index) in skills" :key="index">
-        <template v-if="index !== 0"
-          >/
-        </template>
-        {{ skill }}
-      </span>
-    </p>
-    <h3 class="subheading">実務経験無し</h3>
-    <p>
-      <span v-for="(skill, index) in hobby_skills" :key="index">
         <template v-if="index !== 0"
           >/
         </template>
@@ -33,8 +26,21 @@
 export default {
   data() {
     return {
-      skills: ['C#', 'ASP.NET', 'CSS', 'JavaScript', 'PostgreSQL', 'IIS', 'SVN', 'Git', 'Jenkins'],
-      hobby_skills: ['TypeScript', 'Vue.js', 'Firebase']
+      skills: [
+        'Ruby',
+        'Ruby on Rails',
+        'C#',
+        'ASP.NET',
+        'JavaScript',
+        'TypeScript',
+        'React',
+        'Next.js',
+        'CSS',
+        'MySQL',
+        'PostgreSQL',
+        'Git',
+        'GCP'
+      ]
     }
   },
   computed: {
@@ -42,7 +48,6 @@ export default {
       const today = new Date()
       const birth = new Date('1991-05-21')
 
-      // TODO: 今年の年齢を変数名でわかりやすく表現したい
       const age = today.getFullYear() - birth.getFullYear()
 
       if (
@@ -63,7 +68,7 @@ p {
   margin-bottom: 0px;
 }
 
-.headline {
+.heading {
   margin-top: 10px;
 }
 </style>
