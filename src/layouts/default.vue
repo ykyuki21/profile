@@ -34,7 +34,7 @@
 export default {
   data() {
     return {
-      title: `Yuki's Portfolio`,
+      title: `Yukimy`,
       items: [
         {
           icon: 'perm_identity',

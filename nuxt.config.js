@@ -9,7 +9,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: `Yuki's Portfolio`,
+    title: `Profile | Yukimy`,
     htmlAttrs: {
       lang: 'ja'
     },
