@@ -55,7 +55,7 @@ export default {
         title: 'ZINEYOU, Inc',
         description:
           '自社サービスの開発に携わる。ビジネスチームからの要望を明確化して実装したり、自ら分析を行い機能の追加・改善を行う。また、モノリシックな環境を改善すべく、フロントエンドをNext.js、バックエンドをRailsに分割するプロジェクトを進める。',
-        tags: ['Rails', 'MySQL', 'GCP', 'React', 'Next.js'],
+        tags: ['Rails', 'MySQL', 'GCP', 'TypeScript', 'React', 'Next.js', 'jQuery'],
         color: 'deep-orange',
         year: '2019 ~'
       }
