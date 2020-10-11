@@ -38,8 +38,8 @@ export default {
       items: [
         {
           icon: 'perm_identity',
-          title: 'Profile',
-          to: '/profile'
+          title: 'About',
+          to: '/about'
         },
         {
           icon: 'history',
