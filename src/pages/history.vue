@@ -24,43 +24,40 @@ export default {
   data: () => ({
     items: [
       {
-        title: '少年期',
+        title: 'Kobe City College of Technology',
         description:
-          '魔法のiらんどから始まり、ジオシティーズ、FC2等のレンタルサーバでゲームのファンサイトを作成・運用を行う。',
-        tags: ['HTML', 'CSS'],
-        color: 'indigo',
-        year: '2002'
-      },
-      {
-        title: '学生として',
-        description:
-          'Pascalから入りC言語、Javaを学ぶ。また、C言語を利用したマイコンへの組み込みプログラミング等を行う。',
+          '電子工学科でPascal, C, Javaを学ぶ。また、C言語を利用したマイコンへの組み込みプログラミング等を行う。',
         tags: ['Pascal', 'C', 'Java', 'Linux'],
-        color: 'teal',
-        year: '2007'
+        color: 'indigo',
+        year: '2007 ~'
       },
       {
-        title: '独学',
+        title: 'IVP Co., Ltd.',
         description:
-          'オブジェクト指向プログラミングの理解を深めるために再度Javaを学習し、その後Railsチュートリアルを利用してRuby on RailsでのWebアプリケーション制作を学習する。',
-        tags: ['Java', 'Ruby', 'Ruby on Rails', 'Git'],
-        color: 'pink',
-        year: '2015'
-      },
-      {
-        title: 'Web系システム開発会社にて',
-        description:
-          'ECサイトの受託開発を行う会社に入社し、主にバックエンドエンジニアとして大小様々な案件に携わる。2018年からはチームリーダーとして、新人教育の強化やマネジメントも行う。',
-        tags: ['C#', 'ASP.NET', 'CSS(Sass)', 'JavaScript', 'PostgreSQL', 'SVN', 'Git', 'IIS', 'Jenkins'],
+          'バックエンドエンジニアとして大小様々なECサイトの開発に携わる。2018年からはチームリーダーとして、新人教育の強化やマネジメントも行う。',
+        tags: [
+          'C#',
+          'ASP.NET',
+          'HTML',
+          'CSS',
+          'JavaScript',
+          'PostgreSQL',
+          'SVN',
+          'Git',
+          'Windows Server',
+          'IIS',
+          'Jenkins'
+        ],
         color: 'purple',
-        year: '2016'
+        year: '2016 ~'
       },
       {
-        title: 'Portfolio作成',
-        description: '最新のフロントエンド技術を試すべくNuxt.jsを利用してPortfolioサイトを作成する。',
-        tags: ['Vue.js', 'Nuxt.js', 'Git'],
+        title: 'ZINEYOU, Inc',
+        description:
+          '自社サービスの開発に携わる。ビジネスチームからの要望を明確化して実装したり、自ら分析を行い機能の追加・改善を行う。また、モノリシックな環境を改善すべく、フロントエンドをNext.js、バックエンドをRailsに分割するプロジェクトを進める。',
+        tags: ['Rails', 'MySQL', 'GCP', 'React', 'Next.js'],
         color: 'deep-orange',
-        year: '2019'
+        year: '2019 ~'
       }
     ]
   })
